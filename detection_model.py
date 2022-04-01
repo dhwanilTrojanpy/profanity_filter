@@ -123,10 +123,10 @@ class detection():
             doc = nlp(text)
             doc._.is_profane      
             for token in doc:
-                  tokenn.append({token})
-                  censored.append({token._.censored})
-                  profane.append({token._.is_profane})
-                  original_profane.append({token._.original_profane_word})
+                  tokenn.append(token)
+                  censored.append(token._.censored)
+                  profane.append(token._.is_profane)
+                  original_profane.append(token._.original_profane_word)
           
             return (f'{token}: '
                         f'censored={censored}, '
