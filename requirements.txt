@@ -7,7 +7,6 @@ certifi==2021.10.8
 charset-normalizer==2.0.12
 click==8.0.4
 cymem==2.0.6
-en-core-web-sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-2.3.1/en_core_web_sm-2.3.1.tar.gz
 Flask==2.0.3
 gunicorn==20.1.0
 idna==3.3
@@ -18,8 +17,6 @@ MarkupSafe==2.1.0
 more-itertools==8.12.0
 murmurhash==1.0.6
 numpy==1.22.2
-ordered-set==3.1.1
-ordered-set-stubs==0.1.3
 packaging==21.3
 pathy==0.6.1
 plac==1.1.3
@@ -32,14 +29,6 @@ redis==3.5.3
 requests==2.27.1
 smart-open==5.2.1
 soupsieve==2.3.1
-spacy-legacy==3.0.9
-spacy-loggers==1.0.1
-srsly==1.0.5
-thinc==7.4.5
-tomlkit==0.5.11
-tqdm==4.62.3
-typer==0.4.0
-typing_extensions==4.1.1
 urllib3==1.26.8
 wasabi==0.9.0
 Werkzeug==2.0.3
